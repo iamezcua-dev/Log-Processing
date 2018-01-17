@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dattlas</groupId>
+  <artifactId>Log-Processing</artifactId>
+  <version>0.0.1</version>
+  <name>Log-Processing</name>
+  <description>This project is focused in parsing and processing log files (usually plain text files) from the information systems, in order to find error patterns and suggest and/or apply the most accurate solution using machine learning.</description>
+  <build>
+    <sourceDirectory>src/main/scala</sourceDirectory>
+    <testSourceDirectory>src/test/scala</testSourceDirectory>
+    <testResources>
+      <testResource>
+        <directory>src/test/scala</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </testResource>
+    </testResources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+          <source/>
+          <target/>
+        </configuration>
+      </plugin>
+    </plugins>
+    <dependencies>
+    	
+    </dependencies>
+  </build>
+</project>
